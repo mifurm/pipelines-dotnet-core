@@ -18,7 +18,5 @@ variables:
 steps:
 - script: sudo su
   displayName: 'elevate'
-
-steps:
 - script: dotnet build --configuration $(buildConfiguration)
   displayName: 'dotnet build $(buildConfiguration)'
