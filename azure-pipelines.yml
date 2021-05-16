@@ -6,11 +6,11 @@
 trigger:
 - master
 
-pool:
-  vmImage: ubuntu-latest
-
 #pool:
-# name: test01
+#  vmImage: ubuntu-latest
+
+pool:
+  name: test01
 
 variables:
   buildConfiguration: 'Release'
